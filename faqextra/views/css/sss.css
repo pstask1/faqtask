@@ -1,0 +1,74 @@
+.sss {
+    height: 0;
+    margin: 0; 
+    padding: 0;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.ssslide {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    overflow: hidden;
+}
+
+.ssslide img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.sssnext, .sssprev {
+    width: 25px;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    background: url("../images/arr.png") no-repeat;
+}
+
+.sssprev {
+    left: 0%;
+    background-position: -7px 50%;
+}
+
+.sssnext {
+    right: 0%;
+    background-position: -18px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+    cursor: pointer;
+}
+.h-divider{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    width: 89%;
+    border-top: 1px solid gray;
+    margin-left: 15px;
+}
+.question-slider{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 15px;
+    margin-top: 0px;
+}
+.answer-slider{
+    padding: 0px 15px;
+}
+div.ps17-accordion {
+    padding-right: 0px !important;
+}
+.block-faq {
+    margin: 0px 15px;
+}

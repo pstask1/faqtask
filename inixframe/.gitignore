@@ -1,0 +1,5 @@
+config.xml
+.idea
+config/config.data
+config/config
+!config/.gitkeep
